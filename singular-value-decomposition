@@ -1,0 +1,12 @@
+import numpy as np
+# Singular Value Decomposition (SVD)
+m = np.array([[12, 7, 14],
+              [13, 11, 6],
+              [8, 15, 10]])
+
+U, S, Vt = np.linalg.svd(m)
+
+print ('SVD outputs:\n')
+print('U :\n', U, '\n')
+print('S :\n', S, '\n')
+print('Vt:\n', Vt, '\n')
