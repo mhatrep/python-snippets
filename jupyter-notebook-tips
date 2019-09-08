@@ -1,0 +1,3 @@
+from IPython.core.display import Image
+
+Image('bar_plot.png')
