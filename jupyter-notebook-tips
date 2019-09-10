@@ -5,4 +5,7 @@ Image('bar_plot.png')
 # Enable Matplotlib
 %matplotlib inline
 
+# Disable all warnings in Jupyter notebook.
+import warnings
+warnings.filterwarnings('ignore')
 
