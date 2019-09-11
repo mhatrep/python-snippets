@@ -9,3 +9,22 @@ Image('bar_plot.png')
 import warnings
 warnings.filterwarnings('ignore')
 
+# Jupyter Keyboard Shortcuts
+Esc - Switch to command mode 
+
+While in command mode:
+A - new cell above the current cell
+B - new cell below.
+M - current cell to Markdown
+Y - change it back to code
+D + D (press the key twice) -  delete the current cell
+Enter - from command mode to edit mode
+Shift + Tab -  Docstring for the the object
+Ctrl + Shift + -   split the current cell into two from your cursor is.
+Esc + F  - Find and replace on code but not outputs.
+Esc + O  - Toggle cell output.
+
+Select Multiple Cells:
+Shift + J or Shift + Down selects the next sell in a downwards direction. 
+Shift + K or Shift + Up  - Upwards
+Shift + M  - Merge multiple cells.
