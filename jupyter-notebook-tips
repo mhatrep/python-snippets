@@ -50,3 +50,25 @@ import numpy
 
 %prun slow_function()
 
+----------------------------------------
+!dir  - call system command
+!pip install numpy - Install package
+
+Latex Markdown
+$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$
+
+# Shell Magic
+%%bash
+%%HTML
+%%python2
+%%python3
+%%ruby
+%%perl
+
+----------------------------------------
+%%bash
+for i in {1..5}
+do
+   echo "i is $i"
+done
+----------------------------------------
