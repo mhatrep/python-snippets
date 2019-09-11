@@ -28,3 +28,25 @@ Select Multiple Cells:
 Shift + J or Shift + Down selects the next sell in a downwards direction. 
 Shift + K or Shift + Up  - Upwards
 Shift + M  - Merge multiple cells.
+
+
+# More Tips
+%who - ist all variables of global scope
+%%time - In begining of code will give information about a single run of the code in cell.
+%%timeit - uses the Python timeit module which runs a statement 100,000 times (by default) and then provides mean of fastest three times.
+
+----------------------------------------
+%%time
+import time
+for _ in range(1000):
+    time.sleep(0.01) # sleep for 0.01 seconds
+----------------------------------------
+import numpy
+%timeit numpy.random.normal(size=100)
+----------------------------------------
+
+%prun - Show how much time your program spent in each function.
+%prun statement_name -  will give you an ordered table showing you the number of times each internal function was called within the statement, the time each call took as well as the cumulative time of all runs of the function.
+
+%prun slow_function()
+
